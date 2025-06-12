@@ -1,95 +1,304 @@
-
 {
   "games": [
     {
       "id": "1",
-      "name": "cyberpunk-2077",
-      "title": "Cyberpunk 2077",
-      "description": "An open-world, action-adventure RPG set in the megalopolis of Night City, where you play as a cyberpunk mercenary wrapped up in a do-or-die fight for survival.",
-      "download_link": "magnet:?xt=urn:btih:cyberpunk2077&dn=Cyberpunk%202077",
-      "icon_link": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop",
+      "name": "elden-ring",
+      "title": "Elden Ring",
+      "description": "An open-world action RPG developed by FromSoftware and published by Bandai Namco.",
+      "download_link": "magnet:?xt=urn:btih:6601D0DC9AE9FEA8582AC703F92553B717747C42&dn=ELDEN%20RING",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
       "system_requirements": {
         "minimum": {
-          "os": "Windows 10 64-bit",
-          "processor": "Intel Core i5-3570K or AMD FX-8310",
-          "memory": "8 GB RAM",
-          "graphics": "NVIDIA GeForce GTX 780 or AMD Radeon RX 470",
-          "storage": "70 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel Core i5-8400",
+          "memory": "12 GB RAM",
+          "graphics": "NVIDIA GTX 1060 3GB",
+          "storage": "60 GB"
         },
         "recommended": {
-          "os": "Windows 10 64-bit",
-          "processor": "Intel Core i7-4790 or AMD Ryzen 3 3200G",
-          "memory": "12 GB RAM",
-          "graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon R9 Fury",
-          "storage": "70 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel Core i7-8700K",
+          "memory": "16 GB RAM",
+          "graphics": "NVIDIA GTX 1070 8GB",
+          "storage": "60 GB"
         }
       },
       "screenshots_links": [
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&h=450&fit=crop"
+        "https://images.unsplash.com/photo-1611312447112-2058d1170db9?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1601933470917-c6515d8f8e16?w=800&h=450&fit=crop"
+      ],
+      "genre": "Action RPG",
+      "release_date": "2022-02-25"
+    },
+    {
+      "id": "2",
+      "name": "cyberpunk-2077",
+      "title": "Cyberpunk 2077",
+      "description": "A futuristic open-world RPG by CD Projekt Red.",
+      "download_link": "magnet:?xt=urn:btih:4085064919B2AF10746241C541400A53B3DC9B7F&dn=Cyberpunk%202077",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-4790",
+          "memory": "16 GB RAM",
+          "graphics": "NVIDIA GTX 1060 6GB",
+          "storage": "70 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-6700 or Ryzen 5 3600",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2060 / RX 5700 XT",
+          "storage": "70 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1587202372775-d75d8b10a93b?w=800&h=450&fit=crop"
       ],
       "genre": "Action RPG",
       "release_date": "2020-12-10"
     },
     {
-      "id": "2",
-      "name": "witcher-3",
-      "title": "The Witcher 3: Wild Hunt",
-      "description": "A story-driven, next-generation open world role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful consequences.",
-      "download_link": "magnet:?xt=urn:btih:witcher3&dn=The%20Witcher%203",
-      "icon_link": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=400&fit=crop",
+      "id": "3",
+      "name": "god-of-war",
+      "title": "God of War",
+      "description": "Play as Kratos in a mythological adventure through Norse realms.",
+      "download_link": "magnet:?xt=urn:btih:3D49465120A9FFAF3053A3A40B54CE1F2D200171&dn=God%20of%20War",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
       "system_requirements": {
         "minimum": {
-          "os": "Windows 7 SP1 64-bit",
-          "processor": "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
-          "memory": "6 GB RAM",
-          "graphics": "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
-          "storage": "35 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel i5-6600k",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GTX 1060",
+          "storage": "70 GB"
         },
         "recommended": {
-          "os": "Windows 10 64-bit",
-          "processor": "Intel CPU Core i7 3770 3.4 GHz / AMD CPU AMD FX-8350 4 GHz",
-          "memory": "8 GB RAM",
-          "graphics": "Nvidia GPU GeForce GTX 770 / AMD GPU Radeon R9 290",
-          "storage": "35 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel i7-7700 or Ryzen 7 3700X",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2060",
+          "storage": "70 GB"
         }
       },
       "screenshots_links": [
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=450&fit=crop"
+        "https://images.unsplash.com/photo-1577563908411-5077e1a01590?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1577563491963-ff08a5f0d313?w=800&h=450&fit=crop"
       ],
-      "genre": "Action RPG",
-      "release_date": "2015-05-19"
+      "genre": "Action Adventure",
+      "release_date": "2018-04-20"
     },
     {
-      "id": "3",
-      "name": "red-dead-redemption-2",
-      "title": "Red Dead Redemption 2",
-      "description": "Winner of over 175 Game of the Year Awards, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland.",
-      "download_link": "magnet:?xt=urn:btih:rdr2&dn=Red%20Dead%20Redemption%202",
-      "icon_link": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=400&fit=crop",
+      "id": "4",
+      "name": "hogwarts-legacy",
+      "title": "Hogwarts Legacy",
+      "description": "An immersive open-world RPG set in the Harry Potter universe.",
+      "download_link": "magnet:?xt=urn:btih:E541401B91FB87F7702E6BA131B1A57445EAB128&dn=Hogwarts%20Legacy",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hogwarts_Legacy_promotional_photo_horizontal.jpg",
       "system_requirements": {
         "minimum": {
-          "os": "Windows 7 SP1 64-bit",
-          "processor": "Intel Core i5-2500K / AMD FX-6300",
-          "memory": "8 GB RAM",
-          "graphics": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
-          "storage": "150 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel Core i5-8400",
+          "memory": "16 GB RAM",
+          "graphics": "NVIDIA GTX 1070",
+          "storage": "85 GB"
         },
         "recommended": {
-          "os": "Windows 10 64-bit",
-          "processor": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
-          "memory": "12 GB RAM",
-          "graphics": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
-          "storage": "150 GB available space"
+          "os": "Windows 10",
+          "processor": "Intel Core i7-10700K",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2080",
+          "storage": "85 GB"
         }
       },
       "screenshots_links": [
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1519666213638-7d689b6c2cb2?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1601933470917-c6515d8f8e16?w=800&h=450&fit=crop"
+      ],
+      "genre": "Fantasy RPG",
+      "release_date": "2023-02-10"
+    },
+    {
+      "id": "5",
+      "name": "resident-evil-4-remake",
+      "title": "Resident Evil 4 Remake",
+      "description": "A stunning remake of the iconic survival horror game.",
+      "download_link": "magnet:?xt=urn:btih:65CB63D4BF3F30110E25998AF10CD1AC24C65F85&dn=Resident%20Evil%204%20Remake",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Ryzen 3 1200 / Intel Core i5-7500",
+          "memory": "8 GB RAM",
+          "graphics": "AMD RX 560 / NVIDIA GTX 1050 Ti",
+          "storage": "60 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Ryzen 5 3600 / Intel Core i7-8700",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2060 / RX 5700",
+          "storage": "60 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1558981033-3e5f4e5e7ff5?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1577563908411-5077e1a01590?w=800&h=450&fit=crop"
+      ],
+      "genre": "Survival Horror",
+      "release_date": "2023-03-24"
+    },
+    {
+      "id": "6",
+      "name": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "description": "Epic Western action-adventure game from Rockstar Games.",
+      "download_link": "magnet:?xt=urn:btih:233B78CA585FE0A8C9E8EB4BDA03F52E8B6F554B&dn=Red%20Dead%20Redemption%202",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-4770K",
+          "memory": "12 GB RAM",
+          "graphics": "NVIDIA GTX 1060 6GB",
+          "storage": "150 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-8700K",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2070 / RX 5700 XT",
+          "storage": "150 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=450&fit=crop"
       ],
       "genre": "Action Adventure",
       "release_date": "2019-11-05"
+    },
+    {
+      "id": "7",
+      "name": "spider-man-remastered",
+      "title": "Marvel's Spider-Man Remastered",
+      "description": "Swing through New York as Spider-Man in this remastered action-packed title.",
+      "download_link": "magnet:?xt=urn:btih:4F3D6A39C70D926D5179E7BA2CB20CC0DEBF4F69&dn=Marvels.Spider.Man.Remastered",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i3-4160",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GTX 950",
+          "storage": "75 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-8700",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2070 / RX 6700 XT",
+          "storage": "75 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1625879422154-95d8992bca52?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1612204479525-c03e2c8b0f8a?w=800&h=450&fit=crop"
+      ],
+      "genre": "Action Adventure",
+      "release_date": "2022-08-12"
+    },
+    {
+      "id": "8",
+      "name": "assassins-creed-valhalla",
+      "title": "Assassin's Creed Valhalla",
+      "description": "Lead Viking raids and build your settlement in England.",
+      "download_link": "magnet:?xt=urn:btih:F6626123087E54B49F86AD49E77EDE8C4694159E&dn=Assassins%20Creed%20Valhalla",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Ryzen 3 1200 / Intel i5-4460",
+          "memory": "8 GB RAM",
+          "graphics": "AMD R9 380 / NVIDIA GTX 960",
+          "storage": "60 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Ryzen 5 3600 / Intel Core i7-8700K",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 2060 / RX 5700 XT",
+          "storage": "60 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1604023450926-1c246bcbad92?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?w=800&h=450&fit=crop"
+      ],
+      "genre": "Action RPG",
+      "release_date": "2020-11-10"
+    },
+    {
+      "id": "9",
+      "name": "modern-warfare-ii",
+      "title": "Call of Duty: Modern Warfare II",
+      "description": "Tactical shooter with fast-paced combat and a gripping story campaign.",
+      "download_link": "magnet:?xt=urn:btih:F8598B47C502E05F85334AD11DF432223C0A8B09&dn=Call%20of%20Duty%20Modern%20Warfare%20II",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/4/4a/Call_of_Duty_Modern_Warfare_II_Key_Art.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-6600K",
+          "memory": "12 GB RAM",
+          "graphics": "NVIDIA GTX 1060",
+          "storage": "80 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7-9700K",
+          "memory": "16 GB RAM",
+          "graphics": "RTX 3060 / RX 6700",
+          "storage": "80 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1617137968424-bd4f0aa889c3?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1612204479525-c03e2c8b0f8a?w=800&h=450&fit=crop"
+      ],
+      "genre": "First-Person Shooter",
+      "release_date": "2022-10-28"
+    },
+    {
+      "id": "10",
+      "name": "starfield",
+      "title": "Starfield",
+      "description": "Explore a vast galaxy in Bethesda's space RPG adventure.",
+      "download_link": "magnet:?xt=urn:btih:0C9B2C2C7E4094DD347636B2C89F5B5E207B03FF&dn=Starfield",
+      "icon_link": "https://upload.wikimedia.org/wikipedia/en/6/6d/Bethesda_Starfield.jpg",
+      "system_requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+          "memory": "16 GB RAM",
+          "graphics": "AMD Radeon RX 5700 / NVIDIA GTX 1070 Ti",
+          "storage": "125 GB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Ryzen 7 5800X / Intel Core i7-10700K",
+          "memory": "32 GB RAM",
+          "graphics": "RTX 3080 / RX 6800 XT",
+          "storage": "125 GB"
+        }
+      },
+      "screenshots_links": [
+        "https://images.unsplash.com/photo-1631269860239-797f0128a4e1?w=800&h=450&fit=crop",
+        "https://images.unsplash.com/photo-1581291519195-ef11498d1cf5?w=800&h=450&fit=crop"
+      ],
+      "genre": "Sci-Fi RPG",
+      "release_date": "2023-09-06"
     }
   ]
 }

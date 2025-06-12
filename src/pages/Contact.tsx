@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Layout } from '../components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
@@ -27,8 +26,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Simple validation
+
     if (!formData.name || !formData.email || !formData.message) {
       toast({
         title: "Missing Information",
@@ -38,13 +36,11 @@ const Contact: React.FC = () => {
       return;
     }
 
-    // Simulate form submission
     toast({
       title: "Message Sent!",
       description: "Thank you for contacting us. We'll get back to you soon.",
     });
 
-    // Reset form
     setFormData({
       name: '',
       email: '',
@@ -56,7 +52,6 @@ const Contact: React.FC = () => {
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8">
-        {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-4">Contact Us</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -65,7 +60,6 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Contact Form */}
           <Card>
             <CardHeader>
               <CardTitle>Send us a Message</CardTitle>
@@ -130,9 +124,7 @@ const Contact: React.FC = () => {
             </CardContent>
           </Card>
 
-          {/* Contact Information */}
           <div className="space-y-6">
-            {/* Contact Methods */}
             <Card>
               <CardHeader>
                 <CardTitle>Get in Touch</CardTitle>
@@ -144,7 +136,12 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Email</h4>
-                    <p className="text-muted-foreground">support@gameseeders.com</p>
+                    <a
+                      href="mailto:gameseederz@gmail.com"
+                      className="text-muted-foreground hover:underline"
+                    >
+                      gameseederz@gmail.com
+                    </a>
                   </div>
                 </div>
 
@@ -156,7 +153,14 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Discord</h4>
-                    <p className="text-muted-foreground">Join our community server</p>
+                    <a
+                      href="https://discord.gg/ueFDhgT2hU"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:underline"
+                    >
+                      Join our community server
+                    </a>
                   </div>
                 </div>
 
@@ -164,17 +168,23 @@ const Contact: React.FC = () => {
 
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <span className="text-primary">🐦</span>
+                    <span className="text-primary">▶️</span>
                   </div>
                   <div>
-                    <h4 className="font-medium text-foreground">Twitter</h4>
-                    <p className="text-muted-foreground">@gameseeders</p>
+                    <h4 className="font-medium text-foreground">YouTube</h4>
+                    <a
+                      href="https://youtube.com/@GameSeederz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:underline"
+                    >
+                      GameSeederz
+                    </a>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            {/* FAQ */}
             <Card>
               <CardHeader>
                 <CardTitle>Frequently Asked Questions</CardTitle>
