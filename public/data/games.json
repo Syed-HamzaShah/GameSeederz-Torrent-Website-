@@ -24,8 +24,7 @@
         }
       },
       "screenshots_links": [
-        "https://images.unsplash.com/photo-1611312447112-2058d1170db9?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1601933470917-c6515d8f8e16?w=800&h=450&fit=crop"
+        "https://en.wikipedia.org/wiki/File:Elden_Ring_gameplay.png"
       ],
       "genre": "Action RPG",
       "release_date": "2022-02-25"
@@ -54,41 +53,10 @@
         }
       },
       "screenshots_links": [
-        "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1587202372775-d75d8b10a93b?w=800&h=450&fit=crop"
+        "https://en.wikipedia.org/wiki/File:Cyberpunk_2077_gameplay.png"
       ],
       "genre": "Action RPG",
       "release_date": "2020-12-10"
-    },
-    {
-      "id": "3",
-      "name": "god-of-war",
-      "title": "God of War",
-      "description": "Play as Kratos in a mythological adventure through Norse realms.",
-      "download_link": "magnet:?xt=urn:btih:3D49465120A9FFAF3053A3A40B54CE1F2D200171&dn=God%20of%20War",
-      "icon_link": "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
-      "system_requirements": {
-        "minimum": {
-          "os": "Windows 10",
-          "processor": "Intel i5-6600k",
-          "memory": "8 GB RAM",
-          "graphics": "NVIDIA GTX 1060",
-          "storage": "70 GB"
-        },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Intel i7-7700 or Ryzen 7 3700X",
-          "memory": "16 GB RAM",
-          "graphics": "RTX 2060",
-          "storage": "70 GB"
-        }
-      },
-      "screenshots_links": [
-        "https://images.unsplash.com/photo-1577563908411-5077e1a01590?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1577563491963-ff08a5f0d313?w=800&h=450&fit=crop"
-      ],
-      "genre": "Action Adventure",
-      "release_date": "2018-04-20"
     },
     {
       "id": "4",
@@ -211,36 +179,6 @@
       "release_date": "2022-08-12"
     },
     {
-      "id": "8",
-      "name": "assassins-creed-valhalla",
-      "title": "Assassin's Creed Valhalla",
-      "description": "Lead Viking raids and build your settlement in England.",
-      "download_link": "magnet:?xt=urn:btih:F6626123087E54B49F86AD49E77EDE8C4694159E&dn=Assassins%20Creed%20Valhalla",
-      "icon_link": "https://upload.wikimedia.org/wikipedia/en/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg",
-      "system_requirements": {
-        "minimum": {
-          "os": "Windows 10",
-          "processor": "Ryzen 3 1200 / Intel i5-4460",
-          "memory": "8 GB RAM",
-          "graphics": "AMD R9 380 / NVIDIA GTX 960",
-          "storage": "60 GB"
-        },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Ryzen 5 3600 / Intel Core i7-8700K",
-          "memory": "16 GB RAM",
-          "graphics": "RTX 2060 / RX 5700 XT",
-          "storage": "60 GB"
-        }
-      },
-      "screenshots_links": [
-        "https://images.unsplash.com/photo-1604023450926-1c246bcbad92?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?w=800&h=450&fit=crop"
-      ],
-      "genre": "Action RPG",
-      "release_date": "2020-11-10"
-    },
-    {
       "id": "9",
       "name": "modern-warfare-ii",
       "title": "Call of Duty: Modern Warfare II",
@@ -269,36 +207,6 @@
       ],
       "genre": "First-Person Shooter",
       "release_date": "2022-10-28"
-    },
-    {
-      "id": "10",
-      "name": "starfield",
-      "title": "Starfield",
-      "description": "Explore a vast galaxy in Bethesda's space RPG adventure.",
-      "download_link": "magnet:?xt=urn:btih:0C9B2C2C7E4094DD347636B2C89F5B5E207B03FF&dn=Starfield",
-      "icon_link": "https://upload.wikimedia.org/wikipedia/en/6/6d/Bethesda_Starfield.jpg",
-      "system_requirements": {
-        "minimum": {
-          "os": "Windows 10",
-          "processor": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
-          "memory": "16 GB RAM",
-          "graphics": "AMD Radeon RX 5700 / NVIDIA GTX 1070 Ti",
-          "storage": "125 GB"
-        },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Ryzen 7 5800X / Intel Core i7-10700K",
-          "memory": "32 GB RAM",
-          "graphics": "RTX 3080 / RX 6800 XT",
-          "storage": "125 GB"
-        }
-      },
-      "screenshots_links": [
-        "https://images.unsplash.com/photo-1631269860239-797f0128a4e1?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1581291519195-ef11498d1cf5?w=800&h=450&fit=crop"
-      ],
-      "genre": "Sci-Fi RPG",
-      "release_date": "2023-09-06"
     }
   ]
 }
